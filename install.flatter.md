@@ -39,6 +39,8 @@ flutter run -d chrome
 # 2. Plug USB cable
 flutter devices              # confirm device appears
 flutter run -d <device-id>   # use id from flutter devices
+flutter run -d 0G02A20X4000157C --dart-define-from-file=env.json # complete example of top command ( 0G02A20X4000157C dynamic, got by flutter devices command)
+
 ```
 
 ### Android — Emulator (Android Studio)
