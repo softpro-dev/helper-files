@@ -28,12 +28,9 @@ xcrun simctl list devices | grep Booted
 
 While running → press `r` = hot reload, `R` = hot restart, `q` = quit.
 
-> All run commands use `--dart-define-from-file=env.json` to inject env vars.  
-> Copy `env.example.json` → `env.json` and fill values before running.
-
 ### Browser (Chrome)
 ```bash
-flutter run -d chrome --dart-define-from-file=env.json
+flutter run -d chrome
 ```
 
 ### Android — Real Device
@@ -68,7 +65,7 @@ flutter run   # select simulator from list
 
 **This machine — iPhone 16 Pro (booted):**
 ```bash
-flutter run -d 631C6B0C-4FED-4C8B-99A5-B93A5A0C7872 --dart-define-from-file=env.json
+flutter run -d 631C6B0C-4FED-4C8B-99A5-B93A5A0C7872
 ```
 
 ### iOS — Real iPhone
