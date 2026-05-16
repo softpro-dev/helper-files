@@ -25,12 +25,64 @@ xcrun simctl list devices | grep Booted
 ```
 
 ## 4. Run app
+
+While running → press `r` = hot reload, `R` = hot restart, `q` = quit.
+
+> All run commands use `--dart-define-from-file=env.json` to inject env vars.  
+> Copy `env.example.json` → `env.json` and fill values before running.
+
+### Browser (Chrome)
 ```bash
-# In app:rider directory
-flutter run           # prompts to choose device
-flutter run -d macos  # macOS desktop
-flutter run -d chrome # Chrome browser
-flutter run -d <simulator-udid>  # specific simulator
+flutter run -d chrome --dart-define-from-file=env.json
+```
+
+### Android — Real Device
+```bash
+# 1. Enable Developer Options on phone → USB Debugging ON
+# 2. Plug USB cable
+flutter devices              # confirm device appears
+flutter run -d <device-id>   # use id from flutter devices
+```
+
+### Android — Emulator (Android Studio)
+```bash
+# Open Android Studio → Device Manager → start emulator
+flutter devices              # emulator appears
+flutter run -d <emulator-id>
+# or shortcut:
+flutter emulators --launch <emulator-id>
+flutter run
+```
+
+### iOS — Xcode Simulator
+```bash
+# Boot simulator
+xcrun simctl boot "iPhone 16 Pro"
+open -a Simulator
+
+# Run
+flutter run -d "iPhone 16 Pro"
+# or just:
+flutter run   # select simulator from list
+```
+
+**This machine — iPhone 16 Pro (booted):**
+```bash
+flutter run -d 631C6B0C-4FED-4C8B-99A5-B93A5A0C7872 --dart-define-from-file=env.json
+```
+
+### iOS — Real iPhone
+```bash
+# 1. Connect iPhone via USB
+# 2. Trust computer on iPhone
+# 3. Open Xcode once → sign in with Apple ID → set team in Runner target
+flutter devices              # iPhone appears
+flutter run -d <device-id>
+```
+
+### Check all connected devices
+```bash
+flutter devices
 ```
 
 ## Installed (this machine)
