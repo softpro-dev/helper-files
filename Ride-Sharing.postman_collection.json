@@ -486,7 +486,7 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"username\": \"admin01\",\n  \"password\": \"admin@123\",\n  \"email\": \"admin01@gocarpool.com\",\n  \"name\": \"Admin User\",\n  \"avatar\": null,\n  \"isSuperAdmin\": 0,\n  \"status\": 1\n}",
+              "raw": "{\n  \"username\": \"admin01\",\n  \"password\": \"admin@123\",\n  \"email\": \"admin01@afRider.com\",\n  \"name\": \"Admin User\",\n  \"avatar\": null,\n  \"isSuperAdmin\": 0,\n  \"status\": 1\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -524,7 +524,7 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"username\": \"admin01\",\n  \"password\": \"admin@123\",\n  \"email\": \"admin01@gocarpool.com\",\n  \"name\": \"Admin User\",\n  \"avatar\": null,\n  \"isSuperAdmin\": 0,\n  \"status\": 1\n}",
+              "raw": "{\n  \"username\": \"admin01\",\n  \"password\": \"admin@123\",\n  \"email\": \"admin01@afRider.com\",\n  \"name\": \"Admin User\",\n  \"avatar\": null,\n  \"isSuperAdmin\": 0,\n  \"status\": 1\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -562,7 +562,7 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"username\": \"admin01\",\n  \"password\": \"admin@123\",\n  \"email\": \"admin01@gocarpool.com\",\n  \"name\": \"Admin User\",\n  \"avatar\": null,\n  \"isSuperAdmin\": 0,\n  \"status\": 1\n}",
+              "raw": "{\n  \"username\": \"admin01\",\n  \"password\": \"admin@123\",\n  \"email\": \"admin01@afRider.com\",\n  \"name\": \"Admin User\",\n  \"avatar\": null,\n  \"isSuperAdmin\": 0,\n  \"status\": 1\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -6955,7 +6955,7 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"title\": \"About Us\",\n  \"status\": 1,\n  \"description\": \"<p>GoCarPool is a rideshare platform...</p>\"\n}",
+              "raw": "{\n  \"title\": \"About Us\",\n  \"status\": 1,\n  \"description\": \"<p>afRider is a rideshare platform...</p>\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -6993,7 +6993,7 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"title\": \"About Us\",\n  \"status\": 1,\n  \"description\": \"<p>GoCarPool is a rideshare platform...</p>\"\n}",
+              "raw": "{\n  \"title\": \"About Us\",\n  \"status\": 1,\n  \"description\": \"<p>afRider is a rideshare platform...</p>\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -7031,7 +7031,7 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"title\": \"About Us\",\n  \"status\": 1,\n  \"description\": \"<p>GoCarPool is a rideshare platform...</p>\"\n}",
+              "raw": "{\n  \"title\": \"About Us\",\n  \"status\": 1,\n  \"description\": \"<p>afRider is a rideshare platform...</p>\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -7367,7 +7367,7 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"webName\": \"GoCarPool\",\n  \"webLogo\": \"https://example.com/logo.png\",\n  \"timezone\": \"Asia/Dhaka\",\n  \"currency\": \"BDT\",\n  \"oneKey\": \"\",\n  \"oneHash\": \"\",\n  \"sCredit\": 50,\n  \"rCredit\": 20,\n  \"showDark\": 0,\n  \"platformFees\": 10,\n  \"smsType\": \"twilio\",\n  \"authKey\": \"\",\n  \"otpId\": \"\",\n  \"accId\": \"\",\n  \"authToken\": \"\",\n  \"twilioNumber\": \"\",\n  \"otpAuth\": \"\",\n  \"commission\": 10,\n  \"host\": \"smtp.example.com\",\n  \"username\": \"noreply@gocarpool.com\",\n  \"password\": \"\",\n  \"port\": \"587\",\n  \"wLimit\": 5000,\n  \"gKey\": \"\",\n  \"notifRideRequestPush\": 1,\n  \"notifRideRequestEmail\": 1,\n  \"notifRideRequestSms\": 0,\n  \"notifRideCompletePush\": 1,\n  \"notifRideCompleteEmail\": 1,\n  \"notifRideCompleteSms\": 0,\n  \"notifRideCancelledPush\": 1,\n  \"notifRideCancelledEmail\": 1,\n  \"notifRideCancelledSms\": 0,\n  \"notifDriverApprovedPush\": 1,\n  \"notifDriverApprovedEmail\": 1,\n  \"notifDriverApprovedSms\": 0,\n  \"notifDriverPayoutPush\": 1,\n  \"notifDriverPayoutEmail\": 1,\n  \"notifDriverPayoutSms\": 0,\n  \"notifDisputePush\": 1,\n  \"notifDisputeEmail\": 1,\n  \"notifDisputeSms\": 0,\n  \"notifHighCancelPush\": 1,\n  \"notifHighCancelEmail\": 1,\n  \"notifHighCancelSms\": 0\n}",
+              "raw": "{\n  \"webName\": \"afRider\",\n  \"webLogo\": \"https://example.com/logo.png\",\n  \"timezone\": \"Asia/Dhaka\",\n  \"currency\": \"BDT\",\n  \"oneKey\": \"\",\n  \"oneHash\": \"\",\n  \"sCredit\": 50,\n  \"rCredit\": 20,\n  \"showDark\": 0,\n  \"platformFees\": 10,\n  \"smsType\": \"twilio\",\n  \"authKey\": \"\",\n  \"otpId\": \"\",\n  \"accId\": \"\",\n  \"authToken\": \"\",\n  \"twilioNumber\": \"\",\n  \"otpAuth\": \"\",\n  \"commission\": 10,\n  \"host\": \"smtp.example.com\",\n  \"username\": \"noreply@afRider.com\",\n  \"password\": \"\",\n  \"port\": \"587\",\n  \"wLimit\": 5000,\n  \"gKey\": \"\",\n  \"notifRideRequestPush\": 1,\n  \"notifRideRequestEmail\": 1,\n  \"notifRideRequestSms\": 0,\n  \"notifRideCompletePush\": 1,\n  \"notifRideCompleteEmail\": 1,\n  \"notifRideCompleteSms\": 0,\n  \"notifRideCancelledPush\": 1,\n  \"notifRideCancelledEmail\": 1,\n  \"notifRideCancelledSms\": 0,\n  \"notifDriverApprovedPush\": 1,\n  \"notifDriverApprovedEmail\": 1,\n  \"notifDriverApprovedSms\": 0,\n  \"notifDriverPayoutPush\": 1,\n  \"notifDriverPayoutEmail\": 1,\n  \"notifDriverPayoutSms\": 0,\n  \"notifDisputePush\": 1,\n  \"notifDisputeEmail\": 1,\n  \"notifDisputeSms\": 0,\n  \"notifHighCancelPush\": 1,\n  \"notifHighCancelEmail\": 1,\n  \"notifHighCancelSms\": 0\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -7405,7 +7405,7 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"webName\": \"GoCarPool\",\n  \"webLogo\": \"https://example.com/logo.png\",\n  \"timezone\": \"Asia/Dhaka\",\n  \"currency\": \"BDT\",\n  \"oneKey\": \"\",\n  \"oneHash\": \"\",\n  \"sCredit\": 50,\n  \"rCredit\": 20,\n  \"showDark\": 0,\n  \"platformFees\": 10,\n  \"smsType\": \"twilio\",\n  \"authKey\": \"\",\n  \"otpId\": \"\",\n  \"accId\": \"\",\n  \"authToken\": \"\",\n  \"twilioNumber\": \"\",\n  \"otpAuth\": \"\",\n  \"commission\": 10,\n  \"host\": \"smtp.example.com\",\n  \"username\": \"noreply@gocarpool.com\",\n  \"password\": \"\",\n  \"port\": \"587\",\n  \"wLimit\": 5000,\n  \"gKey\": \"\",\n  \"notifRideRequestPush\": 1,\n  \"notifRideRequestEmail\": 1,\n  \"notifRideRequestSms\": 0,\n  \"notifRideCompletePush\": 1,\n  \"notifRideCompleteEmail\": 1,\n  \"notifRideCompleteSms\": 0,\n  \"notifRideCancelledPush\": 1,\n  \"notifRideCancelledEmail\": 1,\n  \"notifRideCancelledSms\": 0,\n  \"notifDriverApprovedPush\": 1,\n  \"notifDriverApprovedEmail\": 1,\n  \"notifDriverApprovedSms\": 0,\n  \"notifDriverPayoutPush\": 1,\n  \"notifDriverPayoutEmail\": 1,\n  \"notifDriverPayoutSms\": 0,\n  \"notifDisputePush\": 1,\n  \"notifDisputeEmail\": 1,\n  \"notifDisputeSms\": 0,\n  \"notifHighCancelPush\": 1,\n  \"notifHighCancelEmail\": 1,\n  \"notifHighCancelSms\": 0\n}",
+              "raw": "{\n  \"webName\": \"afRider\",\n  \"webLogo\": \"https://example.com/logo.png\",\n  \"timezone\": \"Asia/Dhaka\",\n  \"currency\": \"BDT\",\n  \"oneKey\": \"\",\n  \"oneHash\": \"\",\n  \"sCredit\": 50,\n  \"rCredit\": 20,\n  \"showDark\": 0,\n  \"platformFees\": 10,\n  \"smsType\": \"twilio\",\n  \"authKey\": \"\",\n  \"otpId\": \"\",\n  \"accId\": \"\",\n  \"authToken\": \"\",\n  \"twilioNumber\": \"\",\n  \"otpAuth\": \"\",\n  \"commission\": 10,\n  \"host\": \"smtp.example.com\",\n  \"username\": \"noreply@afRider.com\",\n  \"password\": \"\",\n  \"port\": \"587\",\n  \"wLimit\": 5000,\n  \"gKey\": \"\",\n  \"notifRideRequestPush\": 1,\n  \"notifRideRequestEmail\": 1,\n  \"notifRideRequestSms\": 0,\n  \"notifRideCompletePush\": 1,\n  \"notifRideCompleteEmail\": 1,\n  \"notifRideCompleteSms\": 0,\n  \"notifRideCancelledPush\": 1,\n  \"notifRideCancelledEmail\": 1,\n  \"notifRideCancelledSms\": 0,\n  \"notifDriverApprovedPush\": 1,\n  \"notifDriverApprovedEmail\": 1,\n  \"notifDriverApprovedSms\": 0,\n  \"notifDriverPayoutPush\": 1,\n  \"notifDriverPayoutEmail\": 1,\n  \"notifDriverPayoutSms\": 0,\n  \"notifDisputePush\": 1,\n  \"notifDisputeEmail\": 1,\n  \"notifDisputeSms\": 0,\n  \"notifHighCancelPush\": 1,\n  \"notifHighCancelEmail\": 1,\n  \"notifHighCancelSms\": 0\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -7443,7 +7443,7 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"webName\": \"GoCarPool\",\n  \"webLogo\": \"https://example.com/logo.png\",\n  \"timezone\": \"Asia/Dhaka\",\n  \"currency\": \"BDT\",\n  \"oneKey\": \"\",\n  \"oneHash\": \"\",\n  \"sCredit\": 50,\n  \"rCredit\": 20,\n  \"showDark\": 0,\n  \"platformFees\": 10,\n  \"smsType\": \"twilio\",\n  \"authKey\": \"\",\n  \"otpId\": \"\",\n  \"accId\": \"\",\n  \"authToken\": \"\",\n  \"twilioNumber\": \"\",\n  \"otpAuth\": \"\",\n  \"commission\": 10,\n  \"host\": \"smtp.example.com\",\n  \"username\": \"noreply@gocarpool.com\",\n  \"password\": \"\",\n  \"port\": \"587\",\n  \"wLimit\": 5000,\n  \"gKey\": \"\",\n  \"notifRideRequestPush\": 1,\n  \"notifRideRequestEmail\": 1,\n  \"notifRideRequestSms\": 0,\n  \"notifRideCompletePush\": 1,\n  \"notifRideCompleteEmail\": 1,\n  \"notifRideCompleteSms\": 0,\n  \"notifRideCancelledPush\": 1,\n  \"notifRideCancelledEmail\": 1,\n  \"notifRideCancelledSms\": 0,\n  \"notifDriverApprovedPush\": 1,\n  \"notifDriverApprovedEmail\": 1,\n  \"notifDriverApprovedSms\": 0,\n  \"notifDriverPayoutPush\": 1,\n  \"notifDriverPayoutEmail\": 1,\n  \"notifDriverPayoutSms\": 0,\n  \"notifDisputePush\": 1,\n  \"notifDisputeEmail\": 1,\n  \"notifDisputeSms\": 0,\n  \"notifHighCancelPush\": 1,\n  \"notifHighCancelEmail\": 1,\n  \"notifHighCancelSms\": 0\n}",
+              "raw": "{\n  \"webName\": \"afRider\",\n  \"webLogo\": \"https://example.com/logo.png\",\n  \"timezone\": \"Asia/Dhaka\",\n  \"currency\": \"BDT\",\n  \"oneKey\": \"\",\n  \"oneHash\": \"\",\n  \"sCredit\": 50,\n  \"rCredit\": 20,\n  \"showDark\": 0,\n  \"platformFees\": 10,\n  \"smsType\": \"twilio\",\n  \"authKey\": \"\",\n  \"otpId\": \"\",\n  \"accId\": \"\",\n  \"authToken\": \"\",\n  \"twilioNumber\": \"\",\n  \"otpAuth\": \"\",\n  \"commission\": 10,\n  \"host\": \"smtp.example.com\",\n  \"username\": \"noreply@afRider.com\",\n  \"password\": \"\",\n  \"port\": \"587\",\n  \"wLimit\": 5000,\n  \"gKey\": \"\",\n  \"notifRideRequestPush\": 1,\n  \"notifRideRequestEmail\": 1,\n  \"notifRideRequestSms\": 0,\n  \"notifRideCompletePush\": 1,\n  \"notifRideCompleteEmail\": 1,\n  \"notifRideCompleteSms\": 0,\n  \"notifRideCancelledPush\": 1,\n  \"notifRideCancelledEmail\": 1,\n  \"notifRideCancelledSms\": 0,\n  \"notifDriverApprovedPush\": 1,\n  \"notifDriverApprovedEmail\": 1,\n  \"notifDriverApprovedSms\": 0,\n  \"notifDriverPayoutPush\": 1,\n  \"notifDriverPayoutEmail\": 1,\n  \"notifDriverPayoutSms\": 0,\n  \"notifDisputePush\": 1,\n  \"notifDisputeEmail\": 1,\n  \"notifDisputeSms\": 0,\n  \"notifHighCancelPush\": 1,\n  \"notifHighCancelEmail\": 1,\n  \"notifHighCancelSms\": 0\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -7506,7 +7506,7 @@
             },
             "body": {
               "mode": "raw",
-              "raw": "{\n  \"webName\": \"GoCarPool\",\n  \"webLogo\": \"https://example.com/logo.png\",\n  \"timezone\": \"Asia/Dhaka\",\n  \"currency\": \"BDT\",\n  \"commission\": 10,\n  \"platformFees\": 10,\n  \"sCredit\": 50,\n  \"rCredit\": 20,\n  \"wLimit\": 5000,\n  \"gKey\": \"\",\n  \"smsType\": \"twilio\",\n  \"authKey\": \"\",\n  \"accId\": \"\",\n  \"authToken\": \"\",\n  \"twilioNumber\": \"\",\n  \"host\": \"smtp.example.com\",\n  \"username\": \"noreply@gocarpool.com\",\n  \"password\": \"\",\n  \"port\": \"587\",\n  \"notifRideRequestPush\": 1,\n  \"notifRideRequestEmail\": 1,\n  \"notifRideRequestSms\": 0,\n  \"notifRideCancelledPush\": 1,\n  \"notifRideCancelledEmail\": 1,\n  \"notifRideCancelledSms\": 0\n}",
+              "raw": "{\n  \"webName\": \"afRider\",\n  \"webLogo\": \"https://example.com/logo.png\",\n  \"timezone\": \"Asia/Dhaka\",\n  \"currency\": \"BDT\",\n  \"commission\": 10,\n  \"platformFees\": 10,\n  \"sCredit\": 50,\n  \"rCredit\": 20,\n  \"wLimit\": 5000,\n  \"gKey\": \"\",\n  \"smsType\": \"twilio\",\n  \"authKey\": \"\",\n  \"accId\": \"\",\n  \"authToken\": \"\",\n  \"twilioNumber\": \"\",\n  \"host\": \"smtp.example.com\",\n  \"username\": \"noreply@afRider.com\",\n  \"password\": \"\",\n  \"port\": \"587\",\n  \"notifRideRequestPush\": 1,\n  \"notifRideRequestEmail\": 1,\n  \"notifRideRequestSms\": 0,\n  \"notifRideCancelledPush\": 1,\n  \"notifRideCancelledEmail\": 1,\n  \"notifRideCancelledSms\": 0\n}",
               "options": {
                 "raw": {
                   "language": "json"
