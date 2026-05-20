@@ -12,6 +12,11 @@ flutter doctor
 ```
 
 
+### Browser (Chrome)
+```bash
+flutter run -d chrome --dart-define-from-file=env.json
+
+```
 
 ### Android — Real Device
 ```bash
@@ -40,11 +45,6 @@ xcrun simctl list devices | grep Booted
 
 While running → press `r` = hot reload, `R` = hot restart, `q` = quit.
 
-### Browser (Chrome)
-```bash
-flutter run -d chrome --dart-define-from-file=env.json
-
-```
 
 
 ### Android — Emulator (Android Studio)
@@ -53,6 +53,7 @@ flutter run -d chrome --dart-define-from-file=env.json
 flutter devices              # emulator appears
 flutter run -d <emulator-id>
 # or shortcut:
+flutter emulators   # to show all emutor
 flutter emulators --launch <emulator-id>
 flutter run
 ```
@@ -82,12 +83,7 @@ flutter run -d 631C6B0C-4FED-4C8B-99A5-B93A5A0C7872
 flutter devices              # iPhone appears
 flutter run -d <device-id>
 ```
-
-### Check all connected devices
-```bash
-flutter devices
-```
-
+ 
 ## Installed (this machine)
 - Flutter 3.41.9 (stable)
 - Xcode 26.3
