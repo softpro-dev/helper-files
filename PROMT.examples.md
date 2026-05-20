@@ -30,9 +30,3 @@ Aliases defined in `CLAUDE.local.md` (`/Users/mamun/apps/with-rideshare/rideshar
 | Alias | Full Path |
 |-------|-----------|
 | `file:postman` | `/Users/mamun/apps/with-rideshare/helper-files/Ride-Sharing.postman_collection.json` |
-
-
-
-
-# To add drag feature 
-- Just say to calude: "add drag map" + {page name}.
