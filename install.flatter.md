@@ -11,6 +11,18 @@ which flutter && flutter --version
 flutter doctor
 ```
 
+
+
+### Android — Real Device
+```bash
+# 1. Enable Developer Options on phone → USB Debugging ON
+# 2. Plug USB cable
+flutter devices              # confirm device appears
+flutter run -d <device-id>   # use id from flutter devices
+flutter run -d 0G02A20X4000157C --dart-define-from-file=env.json # complete example of top command ( 0G02A20X4000157C dynamic, got by flutter devices command)
+
+```
+
 ## 3. iOS Simulator (macOS — no extra install if Xcode present)
 ```bash
 # Accept Xcode license (one-time, needs password)
@@ -34,15 +46,6 @@ flutter run -d chrome --dart-define-from-file=env.json
 
 ```
 
-### Android — Real Device
-```bash
-# 1. Enable Developer Options on phone → USB Debugging ON
-# 2. Plug USB cable
-flutter devices              # confirm device appears
-flutter run -d <device-id>   # use id from flutter devices
-flutter run -d 0G02A20X4000157C --dart-define-from-file=env.json # complete example of top command ( 0G02A20X4000157C dynamic, got by flutter devices command)
-
-```
 
 ### Android — Emulator (Android Studio)
 ```bash
