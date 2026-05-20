@@ -30,7 +30,6 @@ While running → press `r` = hot reload, `R` = hot restart, `q` = quit.
 
 ### Browser (Chrome)
 ```bash
-flutter run -d chrome
 flutter run -d chrome --dart-define-from-file=env.json
 
 ```
