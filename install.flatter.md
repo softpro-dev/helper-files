@@ -24,7 +24,7 @@ flutter run -d chrome --dart-define-from-file=env.json
 # 2. Plug USB cable
 flutter devices              # confirm device appears
 flutter run -d <device-id>   # use id from flutter devices
-flutter run -d 0G02A20X4000157C --dart-define-from-file=env.json # complete example of top command ( 0G02A20X4000157C dynamic, got by flutter devices command)
+flutter run -d 0G02A20X4000157C --dart-define-from-file=env.json 
 
 ```
 
@@ -48,14 +48,38 @@ While running → press `r` = hot reload, `R` = hot restart, `q` = quit.
 
 
 ### Android — Emulator (Android Studio)
+
+**Create new emulator (one-time):**
+1. Open Android Studio
+2. `More Actions` → `Virtual Device Manager` (or `Tools` → `Device Manager`)
+3. Click `+` → `Create Virtual Device`
+4. Pick hardware profile (e.g. `Pixel 8`) → Next
+5. Download a system image (e.g. `API 35 / Android 15`) → Next
+6. Name it → Finish
+
+**Launch & run:**
 ```bash
-# Open Android Studio → Device Manager → start emulator
-flutter devices              # emulator appears
+flutter emulators                       # list all created emulators
+flutter emulators --launch <id>         # boot one (e.g. Pixel_8_API_35)
+flutter devices                         # confirm emulator appears
 flutter run -d <emulator-id>
-# or shortcut:
-flutter emulators   # to show all emutor
-flutter emulators --launch <emulator-id>
-flutter run
+# or after emulator is booted, just:
+flutter run                             # Flutter auto-selects running emulator
+```
+
+**Command-line only (no Android Studio UI):**
+```bash
+# List available system images
+sdkmanager --list | grep "system-images"
+
+# Create AVD via avdmanager
+avdmanager create avd \
+  -n Pixel8_API35 \
+  -k "system-images;android-35;google_apis;x86_64" \
+  -d pixel_8
+
+# Boot it
+emulator -avd Pixel8_API35
 ```
 
 ### iOS — Xcode Simulator
