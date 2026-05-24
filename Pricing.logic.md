@@ -6,7 +6,8 @@ Price Logic
 2. Add a rejectable feature to the app:fleeter -> Rental -> Requests Section (from the details view). Display the driver’s information and add a “Call to Driver” button. After confirming or rejecting the car, send an SMS and initiate a notification to the driver. However, if the phone number is the same, meaning the driver and the fleet owner are the same person, handle the message and notification text accordingly.
 
 
-Pricing Logic
+# Pricing Logic of Rent Car
+## Available Price [ Daily, Weekly, Monthly ]
 
 3. After confirming a vehicle rental, if the driver wants to cancel, a minimum charge will be added based on the following criteria:
 - If the rental period has not yet started, a minimum charge of 1 day will be added.
