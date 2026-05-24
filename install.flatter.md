@@ -15,7 +15,6 @@ flutter doctor
 ### Browser (Chrome)
 ```bash
 flutter run -d chrome --dart-define-from-file=env.json
-
 ```
 
 ### Android — Real Device
