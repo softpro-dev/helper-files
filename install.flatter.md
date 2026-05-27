@@ -26,6 +26,7 @@ flutter run -d chrome --dart-define-from-file=./../env.json
 flutter devices              # confirm device appears
 flutter run -d <device-id>   # use id from flutter devices
 flutter run -d 0G02A20X4000157C --dart-define-from-file=env.json 
+flutter run -d 0G02A20X4000157C --dart-define-from-file=./../env.json
 
 ```
 
