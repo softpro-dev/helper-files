@@ -114,3 +114,5 @@ flutter run -d <device-id>
 - Flutter 3.41.9 (stable)
 - Xcode 26.3
 - iOS Simulator: iPhone 16 Pro (Booted ✓)
+
+
