@@ -7,13 +7,14 @@ flutter pub get       # in each app dir
 ```
 
 
-# Build APK (Android)
+# Build AAB (Android) - for App Store
 ``` bash
-flutter build apk --release --dart-define-from-file=./../env.prod.json 
+flutter build appbundle --release --dart-define-from-file=./../env.prod.json 
 ```
-- Output: build/app/outputs/flutter-apk/app-release.apk
-- For Play Store → use flutter build appbundle instead (generates .aab)
- 
+- Output: build/app/outputs/bundle/release/app-release.aab
+- AAB = Play Store format. Google splits it per device arch — smaller download for users.
+
+
 
 
 # Build IPA (IOS)
