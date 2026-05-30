@@ -10,7 +10,12 @@
 - fleet	    com.rfride.android.fleetowner
 - fleet	    com.rfride.ios.fleetowner
 
+# Run any path in terminal (not for any specific app or path)
+
+``` bash
 keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android | grep SHA1
+```
+This fingerpring copy and paste their
 
 
 # Example in image (app-restriction.example.png)
