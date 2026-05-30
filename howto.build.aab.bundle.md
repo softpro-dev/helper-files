@@ -22,6 +22,10 @@ flutter build appbundle --release --dart-define-from-file=env.prod.json
 ``` bash
 flutter build ipa --release --dart-define-from-file=env.prod.json
 ```
+
+``` bash
+open build/ios/archive/Runner.xcarchive
+```
  
 ## Then open Xcode Organizer to export:
 - Then open Xcode Organizer to export:
