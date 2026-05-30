@@ -1,5 +1,6 @@
 # GO: https://console.cloud.google.com/apis/credentials?project=af-ride-v1
 
+# Add app restrictions with app id
 
 - rider	    com.rfride.android.rider
 - rider	    com.rfride.ios.rider
