@@ -20,4 +20,15 @@ Outut Example: F3:0D:3D:8F:F1:36:80:AC:AC:FF:30:03:AC:61:89:D3:87:82:DC:A3
 This fingerpring copy and paste their
 
 
+
+# Maps API key-এর জন্য এগুলো select করো:
+
+Maps SDK for Android
+Maps SDK for iOS (যদি same key use করো)
+Directions API (route/navigation)
+Distance Matrix API (distance calculation)
+Geocoding API (address → coordinates)
+Places API (location search, autocomplete)
+
+
 # Example in image (app-restriction.example.png)
