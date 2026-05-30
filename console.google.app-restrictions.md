@@ -1,4 +1,4 @@
-# GO: https://console.cloud.google.com/apis/credentials?project=af-ride-v1
+# GO: https://console.cloud.google.com/apis/credentials/key/8017e3c7-5afc-4d85-bd4c-9296e4b98ed0?authuser=2&project=a5-ride-share
 
 # Add app restrictions with app id
 
@@ -12,9 +12,20 @@
 - fleet	    com.rfride.ios.fleetowner
 
 # Run any path in terminal (not for any specific app or path)
+## Eta SHA-1(fingerprint) ready kore
 
 ``` bash
 keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android | grep SHA1
+
+```
+
+## To generate new SHA-1(fingerprint) 
+``` bash
+keytool -genkey -v -keystore ~/.android/debug.keystore -alias androiddebugkey -keyalg RSA -keysize 2048 -validity 10000 -storepass android -keypass android -dname "CN=Android Debug,O=Android,C=US"
+
+# then abar read koro (first command)
+keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android | grep SHA1
+
 ```
 Outut Example: F3:0D:3D:8F:F1:36:80:AC:AC:FF:30:03:AC:61:89:D3:87:82:DC:A3
 This fingerpring copy and paste their
