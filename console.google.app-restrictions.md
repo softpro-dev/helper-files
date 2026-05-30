@@ -16,6 +16,7 @@
 ``` bash
 keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android | grep SHA1
 ```
+Outut Example: F3:0D:3D:8F:F1:36:80:AC:AC:FF:30:03:AC:61:89:D3:87:82:DC:A3
 This fingerpring copy and paste their
 
 
