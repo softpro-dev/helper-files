@@ -9,7 +9,7 @@ flutter pub get       # in each app dir
 
 # Build AAB (Android) - for App Store
 ``` bash
-flutter build appbundle --release --dart-define-from-file=./../env.prod.json 
+flutter build appbundle --release --dart-define-from-file=env.prod.json 
 ```
 - Output: build/app/outputs/bundle/release/app-release.aab
 - AAB = Play Store format. Google splits it per device arch — smaller download for users.
@@ -20,7 +20,7 @@ flutter build appbundle --release --dart-define-from-file=./../env.prod.json
 # Build IPA (IOS)
 
 ``` bash
-flutter build ipa --release --dart-define-from-file=./../env.prod.json
+flutter build ipa --release --dart-define-from-file=env.prod.json
 ```
  
 ## Then open Xcode Organizer to export:
