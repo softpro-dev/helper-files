@@ -94,6 +94,13 @@ flutter run -d "iPhone 16 Pro"
 flutter run -d "iPhone 16 Pro" --dart-define-from-file=env.json
 flutter run -d "iPhone 16 Pro" --dart-define-from-file=env.prod.json
 
+# Set IOS simulator default location(important)
+## for Dhaka
+xcrun simctl location booted set 23.8103,90.4125
+
+
+
+
 # or just:
 flutter run   # select simulator from list
 ```
