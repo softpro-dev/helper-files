@@ -91,6 +91,9 @@ open -a Simulator
 
 # Run
 flutter run -d "iPhone 16 Pro"
+flutter run -d "iPhone 16 Pro" --dart-define-from-file=env.json
+flutter run -d "iPhone 16 Pro" --dart-define-from-file=env.prod.json
+
 # or just:
 flutter run   # select simulator from list
 ```
