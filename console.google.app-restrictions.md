@@ -2,14 +2,14 @@
 
 # Add app restrictions with app id
 
-- rider	    com.rfride.android.rider
-- rider	    com.rfride.ios.rider
+- rider	    com.afride.android.rider
+- rider	    com.afride.ios.rider
 
-- driver	com.rfride.android.driver
-- driver	com.rfride.ios.driver
+- driver	com.afride.android.driver
+- driver	com.afride.ios.driver
 
-- fleet	    com.rfride.android.fleetowner
-- fleet	    com.rfride.ios.fleetowner
+- fleet	    com.afride.android.fleetowner
+- fleet	    com.afride.ios.fleetowner
 
 # Run any path in terminal (not for any specific app or path)
 ## Eta SHA-1(fingerprint) ready kore
