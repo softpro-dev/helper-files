@@ -1,13 +1,13 @@
 # https://console.cloud.google.com/apis/credentials?authuser=2&project=a5-ride-share
 
-com.rfride.android.rider
-com.rfride.android.driver
-com.rfride.android.fleetowner
+com.afride.android.rider
+com.afride.android.driver
+com.afride.android.fleetowner
 
 
-com.rfride.ios.rider
-com.rfride.ios.driver
-com.rfride.ios.fleetowner
+com.afride.ios.rider
+com.afride.ios.driver
+com.afride.ios.fleetowner
 
 SSH-1 for all
 ===============
