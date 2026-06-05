@@ -40,9 +40,12 @@ Start with 3 (directions cache) — zero risk, immediate cost cut. Then 1 for re
 ## Local (Mac)
 ```bash
 brew install redis
+sudo chown -R $(whoami) ~/Library/LaunchAgents
 brew services start redis
 redis-cli ping   # → PONG
 ```
+ 
+
 `.env`:
 ```
 REDIS_URL=redis://localhost:6379
