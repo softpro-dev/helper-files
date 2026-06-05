@@ -29,3 +29,15 @@ OTP abuse রোধ, JWT logout blacklist
 Recommended order: 3 → 1 → 2 → 4 → 5
 
 Start with 3 (directions cache) — zero risk, immediate cost cut. Then 1 for real performance gain. 2 and 4 needed before going multi-instance.
+
+
+==========
+# Local machine-এ Redis install
+``` bash
+brew install redis
+brew services start redis
+```
+# .env-এ:
+--- 
+REDIS_URL=redis://localhost:6379
+---
