@@ -18,7 +18,7 @@ flutter run -d chrome --dart-define-from-file=env.json
 flutter run -d chrome --dart-define-from-file=env.prod.json
 ```
 
-### Android — Real Device
+### Android/IOS — Real Device
 ```bash
 # 1. Enable Developer Options on phone → USB Debugging ON
 # 2. Plug USB cable
