@@ -27,6 +27,9 @@ flutter run -d <device-id>   # use id from flutter devices
 flutter run -d 0G02A20X4000157C --dart-define-from-file=env.json 
 flutter run -d 0G02A20X4000157C --dart-define-from-file=env.prod.json 
 
+# IPAD
+cd /Users/mamun/apps/with-rideshare/rideshare-mobile/app-rider        
+flutter run -d 00008120-0004382234100032 --dart-define-from-file=env.prod.json
 ```
 
 ## 3. iOS Simulator (macOS — no extra install if Xcode present)
