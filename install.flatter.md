@@ -22,11 +22,10 @@ flutter run -d chrome --dart-define-from-file=env.prod.json
 ```bash
 flutter emulators
 
-flutter emulators --launch Medium_Phone_API_35
-flutter run -d Medium_Phone_API_35
+flutter emulators --launch emulator-5554
 
-flutter emulators --launch Pixel_9_Pro_XL_API_35
-flutter run -d Pixel_9_Pro_XL_API_35
+flutter run -d emulator-5554 --dart-define-from-file=env.prod.json
+
 
 ```
 
