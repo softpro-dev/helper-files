@@ -116,18 +116,3 @@ flutter run   # select simulator from list
 flutter run -d 631C6B0C-4FED-4C8B-99A5-B93A5A0C7872
 ```
 
-### iOS — Real iPhone
-```bash
-# 1. Connect iPhone via USB
-# 2. Trust computer on iPhone
-# 3. Open Xcode once → sign in with Apple ID → set team in Runner target
-flutter devices              # iPhone appears
-flutter run -d <device-id>
-```
- 
-## Installed (this machine)
-- Flutter 3.41.9 (stable)
-- Xcode 26.3
-- iOS Simulator: iPhone 16 Pro (Booted ✓)
-
-
