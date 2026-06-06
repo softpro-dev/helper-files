@@ -96,8 +96,12 @@ flutter run -d "iPhone 16 Pro"
 flutter run -d "iPhone 16 Pro" --dart-define-from-file=env.json
 flutter run -d "iPhone 16 Pro" --dart-define-from-file=env.prod.json
 
-# Set IOS simulator default location(important)
-## for Dhaka
+# Set Android emulator default location (important)
+## for Dhaka — longitude first, latitude second
+adb emu geo fix 90.4125 23.8103
+
+# Set iOS simulator default location (important)
+## for Dhaka — latitude first, longitude second
 xcrun simctl location booted set 23.8103,90.4125
 
 
