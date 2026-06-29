@@ -14,6 +14,8 @@ flutter build appbundle --release --dart-define-from-file=env.prod.json
 - Output: build/app/outputs/bundle/release/app-release.aab
 - AAB = Play Store format. Google splits it per device arch — smaller download for users.
 
+<!-- cp build/app/outputs/bundle/release/app-release.aab /Users/mamun/Downloads/{rider}.aab -->
+
 
 
 
@@ -22,7 +24,6 @@ flutter build appbundle --release --dart-define-from-file=env.prod.json
 ``` bash
 flutter build ipa --release --dart-define-from-file=env.prod.json
 ```
-<!-- cp build/app/outputs/bundle/release/app-release.aab /Users/mamun/Downloads/{rider}.aab -->
 
 ``` bash
 open build/ios/archive/Runner.xcarchive
