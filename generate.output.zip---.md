@@ -4,11 +4,12 @@
 Open a terminal in ~/Downloads
 Files
 - keystore-path: /Users/mamun/afride-upload-key-new.jks
+
 - pepk.jar
 - encryption_public_key.pem
  
 ```bash
-java -jar pepk.jar --keystore=/Users/mamun/afride-upload-key-new.jks --alias=upload --output=output.zip --include-cert --rsa-aes-encryption --encryption-key-path=encryption_public_key.pem
+java -jar pepk.jar --keystore=keystore.jks --alias=upload --output=output.zip --include-cert --rsa-aes-encryption --encryption-key-path=encryption_public_key.pem
 ```
 
 password: SoftPro@26
