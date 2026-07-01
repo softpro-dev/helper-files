@@ -32,4 +32,13 @@ What is the name of your City or Locality?          Lisbon
 What is the name of your State or Province?         Portugal
 What is the two-letter country code for this unit?  PT
 
-
+# Ready project with keystore(.jks) file 
+## for app:driver
+```bash
+cat > ~/apps/with-rideshare/rideshare-mobile/app-driver/android/key.properties << EOF
+storeFile=~/afride-upload-key-new.jks
+storePassword=SoftPro@26
+keyPassword=SoftPro@26
+keyAlias=upload
+EOF
+```
