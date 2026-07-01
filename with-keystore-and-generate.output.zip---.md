@@ -11,6 +11,9 @@ Files
 ```bash
 java -jar pepk.jar --keystore=keystore.jks --alias=upload --output=output.zip --include-cert --rsa-aes-encryption --encryption-key-path=encryption_public_key.pem
 ```
+```bash
+java -jar pepk.jar --keystore=/Users/mamun/afride-upload-key-new.jks --alias=upload --output=output.zip --include-cert --rsa-aes-encryption --encryption-key-path=encryption_public_key.pem
+```
 
 password: SoftPro@26
 
@@ -28,3 +31,5 @@ What is the name of your organization?              ATLAS FABULOSO LDA
 What is the name of your City or Locality?          Lisbon
 What is the name of your State or Province?         Portugal
 What is the two-letter country code for this unit?  PT
+
+
