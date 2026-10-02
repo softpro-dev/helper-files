@@ -5,11 +5,15 @@
 brew install --cask flutter
 which flutter && flutter --version
 ```
-## 1. Cleaup Flutter
+## 1. Cleaup Flutter in 
+## rideshare-mobile/app-rider
+## rideshare-mobile/app-driver
+## rideshare-mobile/app-fleet
 ```bash
-flutter clean
 rm -rf .dart_tool
 rm -rf build
+rm -rf android/.gradle
+rm -rf android/app/build
 flutter pub get
 ```
 
