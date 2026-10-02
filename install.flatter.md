@@ -5,6 +5,13 @@
 brew install --cask flutter
 which flutter && flutter --version
 ```
+## 1. Cleaup Flutter
+```bash
+flutter clean
+rm -rf .dart_tool
+rm -rf build
+flutter pub get
+```
 
 ## 2. Verify setup
 ```bash
